@@ -1,6 +1,7 @@
 # 개발 환경 소개
 1. 개발환경
 - 데이터베이스: MariaDB
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 - 서버 사이드 언어(백엔드): PHP
 - 클라이언트 사이드 언어(프론트엔드): HTML, CSS
 - 웹 서버: Linux, Apache Web server
