@@ -20,15 +20,21 @@ Linux를 선택한 이유는 이 환경에 익숙하고, Windows에 비하면 �
 - a
 - a
 
+
+
 2. 영화의 특정 등급을 선택하면 그 등급에 맞는 영화만 보여주기
 <img src="https://user-images.githubusercontent.com/53859836/97813120-70b75780-1cc9-11eb-85f4-f247f98b917c.PNG">
 - a
 - a
 
+
+
 3. 영화의 특정 장르를 선택하면 그 장르에 맞는 영화만 보여주기
 <img src="https://user-images.githubusercontent.com/53859836/97813122-714fee00-1cc9-11eb-8ee7-cacfad99611e.PNG">
 - a
 - a
+
+
 
 4. 현재 보유하고 있는 영화 수를 등급별, 장르별, 특징별로 
 <img src="https://user-images.githubusercontent.com/53859836/97813118-6f862a80-1cc9-11eb-9820-4cf963125aac.PNG">
