@@ -38,7 +38,7 @@ Linux를 선택한 이유는 이 환경에 익숙하고, Windows에 비하면 �
 
 
 
-4. 현재 보유하고 있는 영화 수를 등급별, 장르별, 특징별로 
+4. 현재 보유하고 있는 영화 수를 등급별, 장르별, 특징별로 보여주기
 <img src="https://user-images.githubusercontent.com/53859836/97813118-6f862a80-1cc9-11eb-9820-4cf963125aac.PNG">
 - film, film_list 테이블을 사용해(조인 x) GROUP 조건이 rating이면 등급별 전체 영화 수, category이면 장르별 전체 영화 수, special_features이면 특징별 전체 영화 수를 각 조건별로 보여준다.
 
