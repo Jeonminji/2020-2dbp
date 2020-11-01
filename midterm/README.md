@@ -18,22 +18,22 @@ Linux를 선택한 이유는 이 환경에 익숙하고, Windows에 비하면 �
 1. 영화 전체 목록을 원하는 수만큼 오름차순 또는 내림차순으로 보여주기
 <img src="https://user-images.githubusercontent.com/53859836/97813119-70b75780-1cc9-11eb-9abd-508ffb8d84ea.PNG">
 - film, film_list, language 테이블을 조인해서 조건에 맞는 영화의 전체 목록을 보여준다.
-　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
      　　　　
 
 
 2. 영화의 특정 등급을 선택하면 그 등급에 맞는 영화만 보여주기
 <img src="https://user-images.githubusercontent.com/53859836/97813120-70b75780-1cc9-11eb-85f4-f247f98b917c.PNG">
 - film, film_list 테이블을 조인해서 웹 페이지 사용자가 선택한 등급을 가진 영화만 보여준다.
-　　　　　
-     　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+     　　　　　　
 
 
 
 3. 영화의 특정 장르를 선택하면 그 장르에 맞는 영화만 보여주기
 <img src="https://user-images.githubusercontent.com/53859836/97813122-714fee00-1cc9-11eb-8ee7-cacfad99611e.PNG">
 - film, film_list 테이블을 조인해서 웹 페이지 사용자가 선택한 장르를 가진 영화만 보여준다.
-　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
      　　　　
 
 
