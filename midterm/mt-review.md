@@ -1,49 +1,29 @@
-# 개발 환경 소개
-1. 데이터베이스: MariaDB
+# 새로 배운 내용
+- Host Computer: 내가 현재 쓰고 있는 컴퓨터
+- Guest Computer: 가상 컴퓨터
+- Repository: 저장소
+- PHP 주석: //주석, /* 여러 줄 주석 */ 
+- 주석 설정 및 해제 단축키: Ctrl + /
+- PHP에서 문자열에 "나 '를 직접 출력하고 싶으면 앞에 \\(백슬래쉬) 입력
 
-
-데이터베이스를 MySQL을 선택하지 않고 MariaDB를 선택한 이유는 MariaDB에는 MySQL보다 더 많은 기능을 가지고 포함하고 있고, 성능면에서도 더 가볍고 빠르다고 알고 있어 MariaDB를 선택하게 되었다. 또한, 라이선스 문제에서 MySQL은 다수에게 공식적인 목적으로 서비스를 제공한다면 라이선스를 구입해야하지만 MariaDB는 라이선스를 구입할 필요가 없다. 이러한 이유말고도 MariaDB를 선택한 결정적인 이유는 바로 오픈 소스이기때문에 뛰어난 확장성을 가지고 있어서 MariaDB를 선택하게 되었다.
-
-2. 서버 사이드 언어(백엔드): PHP
-
-3. 클라이언트 사이드 언어(프론트엔드): HTML, CSS
-
-4. 웹 서버 : Linux, Apache Web Server
-
-
-Linux를 선택한 이유는 이 환경에 익숙하고, Windows에 비하면 우수한 보안성을 가지고 있어서 신뢰성이 높아 Linux를 선택하게 되었다. 그리고 MariaDB를 선택한 이유와 같이 비용 측면에서 무료라는 가장 큰 강점이 있고, 높은 사양을 필요로하지 않아서 Linux를 선택하게 되었다.
+　
 　
  　
-# 발견한 정보
-1. 영화 전체 목록을 원하는 수만큼 오름차순 또는 내림차순으로 보여주기
-<img src="https://user-images.githubusercontent.com/53859836/97813119-70b75780-1cc9-11eb-9abd-508ffb8d84ea.PNG">
-- film, film_list, language 테이블을 조인해서 조건에 맞는 영화의 전체 목록을 보여준다.
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-     　　　　
-
-
-2. 영화의 특정 등급을 선택하면 그 등급에 맞는 영화만 보여주기
-<img src="https://user-images.githubusercontent.com/53859836/97813120-70b75780-1cc9-11eb-85f4-f247f98b917c.PNG">
-- film, film_list 테이블을 조인해서 웹 페이지 사용자가 선택한 등급을 가진 영화만 보여준다.
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-     　　　　　　
-
-
-
-3. 영화의 특정 장르를 선택하면 그 장르에 맞는 영화만 보여주기
-<img src="https://user-images.githubusercontent.com/53859836/97813122-714fee00-1cc9-11eb-8ee7-cacfad99611e.PNG">
-- film, film_list 테이블을 조인해서 웹 페이지 사용자가 선택한 장르를 가진 영화만 보여준다.
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-     　　　　
-
-
-
-4. 현재 보유하고 있는 영화 수를 등급별, 장르별, 특징별로 보여주기
-<img src="https://user-images.githubusercontent.com/53859836/97813118-6f862a80-1cc9-11eb-9820-4cf963125aac.PNG">
-- film, film_list 테이블을 사용해(조인 x) GROUP 조건이 rating이면 등급별 전체 영화 수, category이면 장르별 전체 영화 수, special_features이면 특징별 전체 영화 수를 각 조건별로 보여준다.
+# 문제가 발생하거나 고민한 내용 + 해결 과정
+- PHP의 if-elseif 문법에서 같다는걸 표시할 때 '=='를 써야하는걸 헷갈렸다. 그래서 PHP 문법을 검색하며 해결했다.
 
 　
 　
  
-# 동작 화면
-https://youtu.be/uWxEbMOG-3A
+# 참고할 만한 내용
+- https://blog.naver.com/agboy/221548353480
+
+
+　
+　
+ 　
+
+# 회고
+- ➕ 데이터를 가져오는데 시간이 많이 걸렸지만 SQL문은 생각보다 금방 짜는 나의 모습을 보며 처음보다는 실력이 많이 좋아진 것 같아서 기분이 좋았다. 
+- ➖ 처음에 Kaggle을 이용해 데이터를 가져오려고 했는데 하루종일해봐도 데이터가 가져와지지 않아 속상했다.
+- ❗ 내가 원하는 데이터를 가져와서 정보를 제공하는 웹 페이지를 만들었다는 사실이 신기했다.
