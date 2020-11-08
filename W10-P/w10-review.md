@@ -10,6 +10,7 @@
 　
  
 # 문제가 발생하거나 고민한 내용 + 해결 과정
+<img src="https://user-images.githubusercontent.com/53859836/98463783-4b62a600-2201-11eb-90b3-5e3da67dbd98.PNG" width=500>
 ```
 - 문제: SQL Developer 연결하는 과정에서 사진처럼 계속 연결할 수 없다는 오류 메시지가 떴음
 - 해결 과정
