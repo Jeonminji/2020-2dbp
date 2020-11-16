@@ -17,7 +17,7 @@
 - 문제: 가장 마지막 값을 조회하는 쿼리가 제대로 작동하지 않았다.
 - 해결 과정
 Slack qna에서 다른 친구가 올려준 해결과정을 보고 해결했다.
-select e.* from ( select a.* from employees a order by a.employee_id desc ) e where rownum = 1
+select e.* from ( select a.* from employees a order by a.employee_id desc ) e where rownum = 1;
 ```
 
 
@@ -43,7 +43,7 @@ Slack qna
 
 # 회고
 ```
-➕ 문제를 스스로 해결해 뿌듯했다.
+➕ 문제를 해결해 뿌듯했다.
 ➖ 문제를 6일동안 고민했는데 오늘 다시 해보니 쉽게 해결되어서 허무하다.
 ❗ 오라클과 자바를 연동해 실습하는게 신기했다.
 ```
