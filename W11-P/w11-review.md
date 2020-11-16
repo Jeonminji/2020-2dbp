@@ -11,6 +11,7 @@
 　
  
 # 문제가 발생하거나 고민한 내용 + 해결 과정
+<img src="https://user-images.githubusercontent.com/53859836/99214834-8d4ca700-2814-11eb-8980-7fc73004a41f.PNG" width=500>
 ```
 - 문제: 가장 마지막 값을 조회하는 쿼리가 제대로 작동하지 않았다.
 - 해결 과정: Slack qna에서 다른 친구가 올려준 해결과정을 보고 해결했다.
@@ -28,7 +29,7 @@
  
 # 참고할 만한 내용
 ```
-없음
+Slack qna
 ```
 
 
@@ -43,5 +44,8 @@
 ❗ 오라클과 자바를 연동해 실습하는게 신기했다.
 ```
 
+　
+　
+ 
 # 동작화면
 https://www.youtube.com/watch?v=OmUsvmnNfRQ&feature=youtu.be
