@@ -15,7 +15,9 @@
 
 ```
 - 문제: 가장 마지막 값을 조회하는 쿼리가 제대로 작동하지 않았다.
-- 해결 과정: Slack qna에서 다른 친구가 올려준 해결과정을 보고 해결했다.
+- 해결 과정
+Slack qna에서 다른 친구가 올려준 해결과정을 보고 해결했다.
+select e.* from ( select a.* from employees a order by a.employee_id desc ) e where rownum = 1
 ```
 
 
