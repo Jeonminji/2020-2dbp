@@ -18,6 +18,7 @@
 - 해결 과정: Slack qna에서 다른 친구가 올려준 해결과정을 보고 해결했다.
 ```
 
+
 <img src="https://user-images.githubusercontent.com/53859836/99214743-4ced2900-2814-11eb-9872-5697e59060a8.png" width=500>
 
 ```
