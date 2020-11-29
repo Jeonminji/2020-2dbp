@@ -41,18 +41,24 @@
 - 문제: ping succeeded가 뜨지만 test.jsp를 실행하면 연결 실패 메시지가 떴다.
 - 해결 과정: 자바 코드를 확인해보니 코드 내에 오타가 있어서 수정했더니 정상적으로 결과를 출력해줬다.
 ```
+
 <img src="https://user-images.githubusercontent.com/53859836/100549633-69c73900-32b7-11eb-99df-8bae82299b0c.PNG" width=50>
+
 ```
-- 문제: ping succeeded가 뜨지만 test.jsp를 실행하면 연결 실패 메시지가 떴다.
-- 해결 과정: 자바 코드를 확인해보니 코드 내에 오타가 있어서 수정했더니 정상적으로 결과를 출력해줬다.
+- 문제: 이클립스에서 톰캣 서버 설정할 때 아파치 서버가 나오지 않았다.
+- 해결 과정: Slack qna에 올라온 다른 설치 파일을 이용하여 설치하니 아파치 서버가 제대로 나왔다.
 ```
- 
+
+
+　
+　
+ 　
+
+
 # 참고할 만한 내용
 ```
 - https://uulog.tistory.com/42
-- 
-- 
-- 
+- https://coding-factory.tistory.com/13
 ```
 
 
