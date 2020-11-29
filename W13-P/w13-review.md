@@ -1,12 +1,11 @@
 # 새로 배운 내용
 ```
-- JDBC: 자바와 데이터베이스를 연동할 수 있는 API
-- JDBC 프로그래밍 과정: JDBC 드라이버 로드 -> DB 연결 -> DB에 데이터 읽기/쓰기 -> DB 연결 종료
-- 트랜잭션: DB의 상태를 변환시키는 하나의 논리적 기능을 수행하기 위한 작업의 단위
-- 트랜잭션의 성질: 원자성, 일관성, 독립성, 지속성
-- INSERT INTO 테이블명 VALUES (값1, 값2, ... );
-- UPDATE 테이블명 SET 컬럼1 = 변경할 값, 컬럼2 =  변경할 값 ... WHERE 조건;
-- DELETE FROM 테이블명 WHERE 조건;
+- 톰캣 서버 실행 방법
+- 이클립스에서 톰캣 서버 설정 방법
+- JSP(Java Server Page): HTML 내부에 java 코드를 입력하여 웹 서버에서 동적으로 웹 브라우저를 관리하는 언어
+- 템플릿 데이터: 클라이언트로 출력되는 콘텐츠
+- JSP 내장 객체는 JSP에서 별도 선언 없이 사용 가능
+- JSP 내장 객체 9개: request, response, pageContext, session, application, config, out, page, exception
 ```
 　
  
