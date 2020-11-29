@@ -14,18 +14,16 @@
 <img src="https://user-images.githubusercontent.com/53859836/100549278-5ca94a80-32b5-11eb-87d4-6669920e36ef.png" width=500>
 
 ```
-- 문제: 가장 마지막 값을 조회하는 쿼리가 제대로 작동하지 않았다.
-- 해결 과정
-Slack qna에서 다른 친구가 올려준 해결과정을 보고 해결했다.
-select e.* from ( select a.* from employees a order by a.employee_id desc ) e where rownum = 1;
+- 문제: 압축 푸는 파일의 경로가 255자를 넘어서 압축이 풀리지 않았다.
+- 해결 과정: 경로를 수정하여 압축을 풀었다.
 ```
 
 
 <img src="https://user-images.githubusercontent.com/53859836/100549274-5b781d80-32b5-11eb-8dbd-f95fe1e29483.png" width=500>
 
 ```
-- 문제: eclipse에서 select()만 실행되고 다른 SQL문은 실행되지 않았다.
-- 해결 과정: Oracle SQL Developer 재실행했다.
+- 문제: JDK 버전과 이클립스 버전이 맞지 않았다.
+- 해결 과정: eclipse.ini 파일에서 Dosgi.requiredJavaVersion=11을 Dosgi.requiredJavaVersion=1.8로 수정했다.
 ```
 
 
@@ -48,7 +46,10 @@ select e.* from ( select a.* from employees a order by a.employee_id desc ) e wh
  
 # 참고할 만한 내용
 ```
-Slack qna
+- https://uulog.tistory.com/42
+- 
+- 
+- 
 ```
 
 
