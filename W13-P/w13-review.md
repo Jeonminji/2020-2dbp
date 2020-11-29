@@ -18,7 +18,7 @@
 - 해결 과정: 경로를 수정하여 압축을 풀었다.
 ```
 
-
+<img src="https://user-images.githubusercontent.com/53859836/100549633-69c73900-32b7-11eb-99df-8bae82299b0c.PNG" width=50>
 <img src="https://user-images.githubusercontent.com/53859836/100549274-5b781d80-32b5-11eb-8dbd-f95fe1e29483.png" width=500>
 
 ```
@@ -26,7 +26,7 @@
 - 해결 과정: eclipse.ini 파일에서 Dosgi.requiredJavaVersion=11을 Dosgi.requiredJavaVersion=1.8로 수정했다.
 ```
 
-
+<img src="https://user-images.githubusercontent.com/53859836/100549633-69c73900-32b7-11eb-99df-8bae82299b0c.PNG" width=50>
 <img src="https://user-images.githubusercontent.com/53859836/100549275-5c10b400-32b5-11eb-84ec-263ffbe9ac20.png" width=500>
 
 ```
@@ -34,15 +34,18 @@
 - 해결 과정: Tomcat admin port를 8006로 HTTP/1.1 포트를 8081로 수정해줬다.
 ```
 
-
+<img src="https://user-images.githubusercontent.com/53859836/100549633-69c73900-32b7-11eb-99df-8bae82299b0c.PNG" width=50>
 <img src="https://user-images.githubusercontent.com/53859836/100549276-5ca94a80-32b5-11eb-9dd7-7d72d3c73bd9.PNG" width=500>
 
 ```
 - 문제: ping succeeded가 뜨지만 test.jsp를 실행하면 연결 실패 메시지가 떴다.
 - 해결 과정: 자바 코드를 확인해보니 코드 내에 오타가 있어서 수정했더니 정상적으로 결과를 출력해줬다.
 ```
-　
-　
+<img src="https://user-images.githubusercontent.com/53859836/100549633-69c73900-32b7-11eb-99df-8bae82299b0c.PNG" width=50>
+```
+- 문제: ping succeeded가 뜨지만 test.jsp를 실행하면 연결 실패 메시지가 떴다.
+- 해결 과정: 자바 코드를 확인해보니 코드 내에 오타가 있어서 수정했더니 정상적으로 결과를 출력해줬다.
+```
  
 # 참고할 만한 내용
 ```
