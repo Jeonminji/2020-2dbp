@@ -30,16 +30,16 @@
 <img src="https://user-images.githubusercontent.com/53859836/100549275-5c10b400-32b5-11eb-84ec-263ffbe9ac20.png" width=500>
 
 ```
-- 문제: eclipse에서 select()만 실행되고 다른 SQL문은 실행되지 않았다.
-- 해결 과정: Oracle SQL Developer 재실행했다.
+- 문제: 해당 포트를 이미 사용하고 있다는 오류 메시지가 떴다.
+- 해결 과정: Tomcat admin port를 8006로 HTTP/1.1 포트를 8081로 수정해줬다.
 ```
 
 
 <img src="https://user-images.githubusercontent.com/53859836/100549276-5ca94a80-32b5-11eb-9dd7-7d72d3c73bd9.PNG" width=500>
 
 ```
-- 문제: eclipse에서 select()만 실행되고 다른 SQL문은 실행되지 않았다.
-- 해결 과정: Oracle SQL Developer 재실행했다.
+- 문제: ping succeeded가 뜨지만 test.jsp를 실행하면 연결 실패 메시지가 떴다.
+- 해결 과정: 자바 코드를 확인해보니 코드 내에 오타가 있어서 수정했더니 정상적으로 결과를 출력해줬다.
 ```
 　
 　
